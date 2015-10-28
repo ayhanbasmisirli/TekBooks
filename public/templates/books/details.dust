@@ -1,0 +1,24 @@
+{>"layouts/master" /}
+
+{<body}
+	<div class="row">
+		<div class="large-4 columns">
+			<img src="/img/node1.jpg" alt="">
+		</div>
+		<div class="large-8 columns">
+			<h2>Professional Node</h2>
+			<ul class="bookInfo">
+				<li>Category :Node.js</li>
+				<li>Authors :John Doe</li>
+				<li>Publisher:Packt Publisher</li>
+			</ul>
+			<br>
+			<div class="price"><span>$19.99</span></div>
+			<br>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto enim numquam sit doloribus aut ad ducimus tempore sint magni sequi.</p>
+			<a href="" class="button success">Add to Cart</a>
+		</div>
+	</div>
+
+	
+{/body}

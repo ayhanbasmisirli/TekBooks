@@ -1,5 +1,52 @@
 {>"layouts/master" /}
 
 {<body}
-    <h1>{@pre type="content" key="greeting"/}</h1>
+   <div class="large-3 columns books">
+   	<img src="/img/node1.jpg" alt="nodebook">
+   	<h4>Professional NodeJS</h4>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+   	<div class="price">
+   		Buy it for 
+		<span>$19.99</span>	
+   		
+   	</div>
+   	<br>
+   	<a href="/books/details/1" class="button small">Book Details</a>
+   </div>
+   <div class="large-3 columns books">
+   	<img src="/img/node2.jpg" alt="nodebook">
+   	<h4>NodeJS BluePrints</h4>
+   	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+   	<div class="price">
+   		Buy it for 
+		<span>$29.99</span>	
+   		
+   	</div>
+   	<br>
+   	<a href="/books/details/2" class="button small">Book Details</a>
+   </div>
+   <div class="large-3 columns books">
+   	<img src="/img/node3.jpg" alt="nodebook">
+   	<h4>NodeDevelopment</h4>
+   	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+   	<div class="price">
+   		Buy it for 
+		<span>$15.99</span>	
+   		
+   	</div>
+   	<br>
+   	<a href="/books/details/3" class="button small">Book Details</a>
+   </div>
+   <div class="large-3 columns books">
+   	<img src="/img/node4.jpg" alt="nodebook">
+   	<h4>Jump Start NodeJS</h4>
+   	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+   	<div class="price">
+   		Buy it for 
+		<span>$27.99</span>	
+   		
+   	</div>
+   	<br>
+   	<a href="/books/details/4" class="button small"> Book Details</a>
+   </div>
 {/body}
